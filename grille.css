@@ -1,0 +1,42 @@
+.ligne{ /* Création de ma ligne qui sépare la top bar de ma " grille" d'image*/
+	height: 1px;
+	display: block;
+	background-color: grey;
+	width: 1200px;
+	margin-top: 2%;
+	margin-left: 5%;
+}
+#TopBar { /*Couleur de fond pour ma Topbar ainsi que son type de bordure*/
+	border: 6px solid black;
+	background-color: black;
+}
+a:link { /* ------ Ici personalistation de mes liens lorsqu'on les survoles et vice et versa ------ */
+	color: #696;
+	text-decoration: none;
+	font-family: helvetica;
+	font-size: 13px;
+}
+a:visited {
+	color: #699;
+	text-decoration: none;
+}
+a:hover {
+	color : white;
+	text-decoration: none;
+}
+.grande, .moyen, .petite { /* Initialise la marge entre chaque image ainsi que leur placement en désignant leurs type de display*/
+	display: inline-block;
+	margin: 0.5% 1%;
+	vertical-align: top;
+}
+span { /* Personalisation de mon span */
+	font-family: helvetica, sans-serif;
+	font-size: 15px;
+	color: grey;
+}
+p { /* Changement de police, taille, mise en gras et couleur de mes paragraphes*/
+	font-family: helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: black;
+}
